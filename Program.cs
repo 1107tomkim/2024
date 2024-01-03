@@ -7,7 +7,7 @@ namespace My_2024_Project
         static void Main(string[] args)
         {
             // Console.Title changes the title of the terminal
-            Console.Title = "TimmyTommy";
+            Console.Title = "ChatBox";
 
             // ForegroundColor changes the color of the terminal fonts.
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -16,7 +16,16 @@ namespace My_2024_Project
             Console.WindowHeight = 20;
             Console.WindowWidth = 100;
 
-            Console.WriteLine("Hello 2024");
+            Console.WriteLine("Hello, what is your name?");
+            string name = Console.ReadLine();
+            if(name == "tommy")
+            {
+                Console.WriteLine("Nice to meet you " + name);
+            }
+            else
+            {
+                Console.WriteLine("HAH!! That is a funky name!");
+            }
             Console.ReadKey();
         }
     }
