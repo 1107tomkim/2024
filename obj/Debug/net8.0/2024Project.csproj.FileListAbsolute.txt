@@ -1,0 +1,14 @@
+C:\Users\Tae\Desktop\2024Project\bin\Debug\net8.0\2024Project.exe
+C:\Users\Tae\Desktop\2024Project\bin\Debug\net8.0\2024Project.deps.json
+C:\Users\Tae\Desktop\2024Project\bin\Debug\net8.0\2024Project.runtimeconfig.json
+C:\Users\Tae\Desktop\2024Project\bin\Debug\net8.0\2024Project.dll
+C:\Users\Tae\Desktop\2024Project\bin\Debug\net8.0\2024Project.pdb
+C:\Users\Tae\Desktop\2024Project\obj\Debug\net8.0\2024Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tae\Desktop\2024Project\obj\Debug\net8.0\2024Project.AssemblyInfoInputs.cache
+C:\Users\Tae\Desktop\2024Project\obj\Debug\net8.0\2024Project.AssemblyInfo.cs
+C:\Users\Tae\Desktop\2024Project\obj\Debug\net8.0\2024Project.csproj.CoreCompileInputs.cache
+C:\Users\Tae\Desktop\2024Project\obj\Debug\net8.0\2024Project.dll
+C:\Users\Tae\Desktop\2024Project\obj\Debug\net8.0\refint\2024Project.dll
+C:\Users\Tae\Desktop\2024Project\obj\Debug\net8.0\2024Project.pdb
+C:\Users\Tae\Desktop\2024Project\obj\Debug\net8.0\2024Project.genruntimeconfig.cache
+C:\Users\Tae\Desktop\2024Project\obj\Debug\net8.0\ref\2024Project.dll
