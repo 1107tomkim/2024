@@ -12,3 +12,4 @@ C:\Users\Tae\Desktop\2024Project\obj\Debug\net8.0\refint\2024Project.dll
 C:\Users\Tae\Desktop\2024Project\obj\Debug\net8.0\2024Project.pdb
 C:\Users\Tae\Desktop\2024Project\obj\Debug\net8.0\2024Project.genruntimeconfig.cache
 C:\Users\Tae\Desktop\2024Project\obj\Debug\net8.0\ref\2024Project.dll
+C:\Users\Tae\Desktop\2024Project\obj\Debug\net8.0\2024Project.sourcelink.json
