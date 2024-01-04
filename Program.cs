@@ -9,7 +9,20 @@ namespace My_2024_Project
         static void Main(string[] args)
         {
             //TerminalFunctions();
-            LetsDoMath();
+            //LetsDoMath();
+            FunWithArrays();
+        }
+
+        public static void FunWithArrays()
+        {
+            //Creating a string array called movies to hold specific movie names.
+            string[] movies = {"Harry Potter", "Lord of the Rings", "Home Alone", "Chicken Little"};
+
+            // iterating through the string array to print out the movie names on Keypress.
+            for(int i = 0; i < movies.Length; i++){
+                Console.WriteLine(movies[i]);
+                Console.ReadKey();
+            }
         }
 
         public static int LetsDoMath()
