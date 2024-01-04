@@ -10,7 +10,8 @@ namespace My_2024_Project
         {
             //TerminalFunctions();
             //LetsDoMath();
-            FunWithArrays();
+            //FunWithArrays();
+            //AssignValueInArray();
         }
 
         public static void FunWithArrays()
@@ -23,6 +24,26 @@ namespace My_2024_Project
                 Console.WriteLine(movies[i]);
                 Console.ReadKey();
             }
+        }
+
+        public static void AssignValueInArray()
+        {
+            string[] fruits = new string[4];
+        
+            Console.WriteLine("Enter 4 fruits of your choice: ");
+
+            for(int i = 0; i <= 3; i++){
+                fruits[i] = Console.ReadLine();
+            }
+            //Sorts the array in alphabetical order.
+            Array.Sort(fruits);
+
+            for(int i = 0; i < fruits.Length; i++)
+            {
+                Console.WriteLine(fruits[i]);
+            }
+
+            Console.ReadKey();
         }
 
         public static int LetsDoMath()
