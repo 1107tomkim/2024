@@ -6,15 +6,32 @@ using System.ComponentModel;
 
 namespace My_2024_Project
 {
+    class Puppy
+    {
+        public string name;
+        public int age;
+        public void bark()
+        {
+            Console.WriteLine(name + " says bark!");
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
+            Puppy Toki = new Puppy();
+            Toki.name = "Toki";
+            Toki.age = 4;
+
+            Puppy Miyu = new Puppy();
+            Miyu.name = "Miyu";
+            Miyu.age = 5;
             //TerminalFunctions();
             //LetsDoMath();
             //FunWithArrays();
             //AssignValueInArray();
-            LearningLists();
+            //LearningLists();
         }
 
         public static void LearningLists()
