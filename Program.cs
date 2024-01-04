@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Numerics;
 using System.Runtime.CompilerServices;
+using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace My_2024_Project
 {
@@ -12,6 +14,40 @@ namespace My_2024_Project
             //LetsDoMath();
             //FunWithArrays();
             //AssignValueInArray();
+            LearningLists();
+        }
+
+        public static void LearningLists()
+        {
+            List<string> Name = new List<string>();
+
+            // To add an item to a list, simply use ".Add()"
+            Name.Add("Tommy");
+            Name.Add("Mike");
+            Name.Add("Shawn");
+            Name.Add("Sally");
+
+            for(int i = 0; i<Name.Count; i++){
+                Console.WriteLine(Name[i]);
+            }
+
+            Console.WriteLine("------------------------");
+
+            //Benefit of using a list instead of an Array
+            //Is the fact that you can add or remove specific elements via name or index.
+            
+            // Removing by specific element
+            Name.Remove("Tommy");
+            // Removing by List index
+            Name.Remove(Name[0]);
+            // Removing by builtin RemoveAt
+            Name.RemoveAt(0);
+            
+            for(int i = 0; i<Name.Count; i++){
+                Console.WriteLine(Name[i]);
+            }
+
+            Console.ReadKey();
         }
 
         public static void FunWithArrays()
