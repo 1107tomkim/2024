@@ -42,11 +42,33 @@ namespace My_2024_Project
             //FunWithArrays();
             //AssignValueInArray();
             //LearningLists();
+            List<int> RandomNumber = new List<int>();
 
-            Multiply(2,3);
-            Multiply(4,5);
-            Multiply(11,24);
+
+            RandomNumber.Add(Multiply(2,3));
+            RandomNumber.Add(Multiply(5,17));
+            RandomNumber.Add(Multiply(13,19));
+            Console.WriteLine("----------------");
+            
+            for(int i = 0; i < RandomNumber.Count; i++){
+                IsEven(RandomNumber[i]);
+            }
             Console.ReadKey();
+        }
+
+        static bool IsEven(int i){
+            bool result = false;
+            if (i % 2 == 0)
+            {
+                result = true;
+                Console.WriteLine("The result is an even number!");
+            }
+            else
+            {
+                result = false;
+                Console.WriteLine("The result is not an even number!");
+            }
+            return result;
         }
 
         static int Multiply(int i, int j){
