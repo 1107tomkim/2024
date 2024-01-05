@@ -3,6 +3,7 @@ using System.Numerics;
 using System.Runtime.CompilerServices;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Xml.XPath;
 
 namespace My_2024_Project
 {
@@ -20,8 +21,11 @@ namespace My_2024_Project
     {
         static void Main(string[] args)
         {
-            MeetStranger();
-            Console.ReadKey();
+
+
+
+            // MeetStranger();
+            // Console.ReadKey();
 
 
             // Puppy Toki = new Puppy();
@@ -38,6 +42,17 @@ namespace My_2024_Project
             //FunWithArrays();
             //AssignValueInArray();
             //LearningLists();
+
+            Multiply(2,3);
+            Multiply(4,5);
+            Multiply(11,24);
+            Console.ReadKey();
+        }
+
+        static int Multiply(int i, int j){
+            int result = i * j;
+            Console.WriteLine("The multiplicaiton of " + i + " " + j + " is = " + result);
+            return result;
         }
 
         static void MeetStranger()
