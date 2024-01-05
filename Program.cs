@@ -20,18 +20,38 @@ namespace My_2024_Project
     {
         static void Main(string[] args)
         {
-            Puppy Toki = new Puppy();
-            Toki.name = "Toki";
-            Toki.age = 4;
+            MeetStranger();
+            Console.ReadKey();
 
-            Puppy Miyu = new Puppy();
-            Miyu.name = "Miyu";
-            Miyu.age = 5;
+
+            // Puppy Toki = new Puppy();
+            // Toki.name = "Toki";
+            // Toki.age = 4;
+
+            // Puppy Miyu = new Puppy();
+            // Miyu.name = "Miyu";
+            // Miyu.age = 5;
+
+
             //TerminalFunctions();
             //LetsDoMath();
             //FunWithArrays();
             //AssignValueInArray();
             //LearningLists();
+        }
+
+        static void MeetStranger()
+        {
+            List<string> Stranger = new List<string>();
+            Stranger.Add("Bob");
+            Stranger.Add("Mike");
+            Stranger.Add("Tim");
+            Stranger.Add("Rob");
+
+            Random r = new Random();
+            int rInt = r.Next(0,3);
+            Console.WriteLine("You met a stranger name " + Stranger[rInt]);
+
         }
 
         public static void LearningLists()
